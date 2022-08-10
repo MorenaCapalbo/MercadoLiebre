@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+/* Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+main {
+    width: 90%;
+}
+body{
+    font-family: "Roboto";
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+header{
+    background-color: #EAC926;
+}
+.header-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-main{
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+}
+
+.search{
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+
+    
+
+}
+.title-1{
+    align-items: center;
+
+}
+.burger-menu{
+    background-color: #1259c3;
+    width: 40px;
+    height: 37px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: auto;
+    border-radius: 5px;
+
+}
+.nav-1, .nav-2{
+    display: none;
+
+}
+.banner{
+    width: 100%;
+    height: 100%;
+}
+.title-section {font-size: 24px;}
+
+.photo-product{
+    width: 50%;
+    height: 50%;
+}
+.article{
+   display: flex;
+   flex-direction: column;
+
+
+}
+.description{
+ 
+}
+
+.price {font-size: 18px;}
+
+.discount {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.name-product{display: none;}
+
+    
+    
+
+.footer{
+    color: #1259c3;
+    margin-bottom: 10px;
+    font-size: 2em;
+    background-color: white;
+    text-align: center;
+}
+.footer-p{
+    color: black;
+    font-size: 12px;
+}
+.Copyright{
+    font-size: 8px;
+    color: black;
+}
+
+
+@media (min-width: 480px) {
+
+    
+.nav-1, .nav-2{
+    display: 
+}
+
+    .description {font-size: 16px;}
+
+}
