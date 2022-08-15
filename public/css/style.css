@@ -99,10 +99,10 @@ header{
 #products{
     display: block;
     justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 .price {font-size: 18px;}
 
@@ -188,7 +188,12 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+}
+.nav-1 ul{
+    text-align: start;
+}
+.nav-2 ul{
+    text-align: end;
 }
 .article{
     width: 45vw;
@@ -199,6 +204,11 @@ nav{
     flex-direction: row;
     flex-wrap: nowrap;
 }
-
+.name-product{
+    display: unset;
 }
 
+}
+footer ul{
+    width: 100%;
+}
