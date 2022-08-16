@@ -11,7 +11,11 @@ rel="stylesheet" />
 </head>
 <body>
     <header>
-        <div class ='logo-main'><img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre"></div>
+        <div class ='logo-main'> 
+            <a href="/" class="logo">  
+                <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+    </a>
+    </div>
         <div class="search"> <input type="text" name="search" placeholder="Buscar producto o marca" class="src" autocomplete="off"></div>
     
     <div class='title-1'>
@@ -27,28 +31,35 @@ rel="stylesheet" />
                 <h2>Creá tu cuenta</h2>
                 <form action="/">
                     <div>
-                    <input type="text" name="nombre">
+                    <input type="text" name="nombre" value="Nombre y apellido">
                     </div>
                     <div>
-                        <input type="text" name="usuario">
+                        <input type="text" name="usuario" value="Nombre de usuario">
                     </div>
                     <div>
-                        <input type="text" name="fecha de nacimiento">
+                        <input type="email" name="email" value="E-mail">
                     </div>
                     <div>
-                        <input type="text" name="domicilio">
+                        <input type="date" name="fecha de nacimiento" value="mm/dd/yy">
                     </div>
                     <div>
+                        <input type="text" name="domicilio" value="Domicilio">
+                    </div>
+                    <div class="perfil-usuario">
                         <h4>Perfil del usuario</h4>
+                        <div class="comprador">
                         <label for="perfil comprador"> 
-                            <input type="radio" name="perfil" value="comprador" id="perfil-comprador"> "Comprador"
+                            <input type="radio" name="perfil" value="comprador" id="perfil-comprador">Comprador
                         </label>
+                        </div>
+                        <div class="vendedor">
                         <label for="perfil vendedor"> 
-                            <input type="radio" name="perfil" value="vendedor" id="perfil-vendedor"> "vendedor"
+                            <input type="radio" name="perfil" value="vendedor" id="perfil-vendedor">Vendedor
                         </label>
+                        </div>
                     </div>
                     <div class="categorias">
-                        <h4>categorias de interés</h4>
+                        <h3>Categorias de interés</h3>
                         <label for="intereses-electro">
                         <input type="checkbox" name="intereses" value="electro" id="intereses-electro"> "Electro"
                     </label>
