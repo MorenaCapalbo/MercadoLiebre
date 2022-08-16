@@ -70,7 +70,6 @@ header{
 }
 .nav-1, .nav-2{
     display: none;
-
 }
 .banner{
     width: 100%;
@@ -154,14 +153,14 @@ ul{
     display: unset;
     }
 .logo-main{
-    width: 31vw;
+    width: 250px;
 }
 .search{
     width: 31vw;
 }
 .title-1{
-    width: 31vw;
-    font-size: 10px;
+    width: 250px;
+    font-size: 16px;
 }
 header {
     justify-content: center;
@@ -180,29 +179,28 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style: none;
+ 
    
-    
 }
 .nav-2{
     width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-.nav-1 ul{
-    text-align: start;
-}
-.nav-2 ul{
-    text-align: end;
+    list-style: none;
+    
 }
 .article{
-    width: 45vw;
-    
+    width: 40vw;
+    padding: 10px;
+    margin: 10px;
+
 }
 #products{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .name-product{
     display: unset;
@@ -211,4 +209,13 @@ nav{
 }
 footer ul{
     width: 100%;
+}
+@media (min-width: 780px) {
+
+    .article{
+        width: 20vw;
+        padding: 10px;
+        margin: 10px;
+    }
+    
 }
